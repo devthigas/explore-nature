@@ -23,13 +23,12 @@
 /* Section img */
 
 .natureza-img-list{
-    height: 50vh;
     width: 300px;
+    height: 600px;
     overflow-y: scroll;
     overflow-x: hidden;
     position: relative;
 }
-
 
 .natureza-img{
     cursor: pointer;
