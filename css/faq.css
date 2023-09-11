@@ -19,3 +19,29 @@
     margin-bottom: 1rem;
 
 }
+
+.js-accordion dd{
+    display: none;
+}
+
+.js-accordion dt.active::after{
+    content: '\25B2';
+    
+}
+
+.js-accordion dd.active{
+    display: block;
+    animation: slideDown 0.5s ease-in-out;
+}
+
+@keyframes slideDown {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
